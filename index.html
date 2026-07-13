@@ -30,23 +30,6 @@ location.href = 'Aktb-01-GEN-001.html';
 // -->
 </script>
 <script type='text/javascript' src='./pwa-main.js'></script>
-
-<script type='text/javascript'>
-var coll = document.getElementsByClassName("collapsible-button");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight) {
-            content.style.maxHeight = null;
-        } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-        }
-    });
-}
-</script>
 </body>
 
 </html>

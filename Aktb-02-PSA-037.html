@@ -62,7 +62,7 @@ var baseRef  = "Aktb-02-PSA-";
 </script>
 </head>
 
-<body class="browser" dir="LTR">
+<body class="browser" dir="LTR" lang="mui">
 
 <div id="book-menu"></div>
 <div id="chapter-menu"></div>
@@ -74,14 +74,14 @@ var baseRef  = "Aktb-02-PSA-";
   <span id="book-selector"><a href="#" onclick="toggleBookMenu(); return false;">&nbsp;&nbsp;Zabór&nbsp;&nbsp;</a></span>
 <span id="chapter-selector"><a href="#" onclick="toggleChapterMenu(chapters, hasIntro, baseRef); return false;">&nbsp;&nbsp;37&nbsp;&nbsp;</a></span>
   <span class="button"><a href='Aktb-02-PSA-040.html' title='Next Chapter'>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</a></span>
-  <span class="button"><a href='Aktb-03-GLO-001.html' title='Next Book'>&nbsp;&gt;&gt;&nbsp;</a></span>
+  <span class="button"><a href='Aktb-03-XXC-001.html' title='Next Book'>&nbsp;&gt;&gt;&nbsp;</a></span>
 </div>
 </div>
 
 <div id="content">
 
 <div class="c">37</div> 
-<div class="s2"><div id="s1">Naséb wong jahat samo naséb wong bener</div></div><a id="v1"></a>
+<div class="s2"><div id="s1">Naséb wong jahat samo naséb wong&nbsp;bener</div></div><a id="v1"></a>
 <div class="qc top-spacing"><span class="v">1</span><span class="vsp">&nbsp;</span>Dari Daód.</div>
 <div class="b">&nbsp;</div>
 <div class="q">Jangan mara karno wong jahat,</div>
@@ -203,22 +203,5 @@ var baseRef  = "Aktb-02-PSA-";
 </div>
 
 <script type='text/javascript' src='./pwa-main.js'></script>
-
-<script type='text/javascript'>
-var coll = document.getElementsByClassName("collapsible-button");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight) {
-            content.style.maxHeight = null;
-        } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-        }
-    });
-}
-</script>
 </body>
 </html>
