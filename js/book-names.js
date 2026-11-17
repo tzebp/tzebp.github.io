@@ -1,4 +1,3 @@
 var books = [
-  { name: "Asal Mulo Dunio", ref: "Aktb-01-GEN-001.html" },
-  { name: "Zabór", ref: "Aktb-02-PSA-001.html" },
+  { name: "Cerito dari Taurat, Zabór, dan Énjél", ref: "Cerito dan-02-XXC-001.html" },
 ];
